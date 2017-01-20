@@ -23,6 +23,9 @@ Let's say you have a custom component which has access to a `post` document, giv
 <Components.SocialButton type="facebook" post={post} /> // facebook share
 
 <Components.SocialButton type="twitter" post={post} /> // twitter share
+
+// you can also give it your own styling if you don't like the current styles
+<Components.SocialButton type="twitter" post={post} className="my-awesome-styling" />
 ```
 
 

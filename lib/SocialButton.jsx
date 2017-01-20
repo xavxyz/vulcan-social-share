@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import { Components, registerComponent, getSetting } from 'meteor/nova:core';
 import Posts from 'meteor/nova:posts';
 
-const SocialButton = ({type, post}) => {
+const SocialButton = ({type, post, className}) => {
 
   // encode the url to share based based on the post's page
   const urlToShare = encodeURIComponent(Posts.getPageUrl(post, true));
@@ -31,7 +31,7 @@ const SocialButton = ({type, post}) => {
   
   return (
     <a 
-      className={`posts-social-share posts-social-share-${type}`}
+      className={className ? className : `posts-social-share posts-social-share-${type}`}
       href={socialUrl}
       target="_blank"
     >
