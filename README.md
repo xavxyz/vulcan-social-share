@@ -4,6 +4,8 @@ An ultra simple button to share posts to social media (Facebook & Twitter) ðŸ—£ï
 
 > **Note:** This package is for Nova 1.0.0, running with GraphQL.
 
+![](https://d17oy1vhnax1f7.cloudfront.net/items/022m3U151n3G0H1Z3o2Q/Screen%20Recording%202017-01-20%20at%2009.29%20AM.gif?v=754f47a1)
+
 ## Install
 Clone this repo in your Nova's `/packages` folder. 
 
