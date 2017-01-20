@@ -1,0 +1,25 @@
+.posts-social-share {
+  border-radius: .25rem;
+  padding: 4px 16px;
+  margin: 0 4px;
+  font-size: 1.25rem;
+  transition: background 1s;
+  
+  &.posts-social-share-facebook {
+    background: #305cbb;
+    color: #fff;
+    
+    &:hover {
+      background: #1d3770;
+    }
+  }
+  
+  &.posts-social-share-twitter {
+    background: #00aced;
+    color: #fff;
+    
+    &:hover {
+      background: #00719c;
+    }
+  }
+}
