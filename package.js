@@ -1,6 +1,6 @@
 Package.describe({
   name: "xavcz:nova-social-share",
-  version: "1.0.0",
+  version: "1.1.0",
 });
 
 Package.onUse( function(api) {
@@ -10,8 +10,8 @@ Package.onUse( function(api) {
   api.use([
     'fourseven:scss',
 
-    'nova:core@1.0.0',
-    'nova:posts@1.0.0',
+    'nova:core@1.1.0',
+    'nova:posts@1.1.0',
   ]);
 
   api.mainModule('client.js', ['client']);
