@@ -10,8 +10,8 @@ Package.onUse( function(api) {
   api.use([
     'fourseven:scss',
 
-    'nova:core@1.2.0',
-    'nova:posts@1.2.0',
+    'vulcan:core@1.2.0',
+    'vulcan:posts@1.2.0',
   ]);
 
   api.mainModule('client.js', ['client']);
