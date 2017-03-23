@@ -1,6 +1,6 @@
 Package.describe({
-  name: "xavcz:nova-social-share",
-  version: "1.2.0",
+  name: "xavcz:vulcan-social-share",
+  version: "1.3.0",
 });
 
 Package.onUse( function(api) {
@@ -10,8 +10,8 @@ Package.onUse( function(api) {
   api.use([
     'fourseven:scss',
 
-    'vulcan:core@1.2.0',
-    'vulcan:posts@1.2.0',
+    'vulcan:core@1.3.0',
+    'vulcan:posts@1.3.0',
   ]);
 
   api.mainModule('client.js', ['client']);
