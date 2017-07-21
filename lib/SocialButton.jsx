@@ -25,7 +25,14 @@ const SocialButton = ({type, post, className}) => {
     // tweet intent: text url via @siteAccount
     socialUrl = `https://twitter.com/intent/tweet?text=${post.title}&url=${urlToShare}&via=${getSetting('twitterAccount')}`
 
-  } else {
+  } else if (type === 'linkedin') {
+   // linkedin button:
+   // note: you might want to change the summary input to be your post's short description or similar
+   // to do: make images work properly
+   // docs: https://developer.linkedin.com/docs/share-on-linkedin
+    socialUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${urlToShare}&title=${post.title}&summary=${post.slug}&source=websitename`;
+    }
+  else {
     // want to add a new share button? do a PR and add it above! :)
   }
 
